@@ -1,0 +1,16 @@
+{
+  "name": "prettier-plugin-blade-311",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@shufo/prettier-plugin-blade": "^1.15.3",
+    "prettier": "^3.5.1"
+  },
+  "scripts" :{
+    "test": "prettier fixture.blade.php -c"
+  },
+  "prettier":{
+"plugins":["@shufo/prettier-plugin-blade"]
+}
+}
